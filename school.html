@@ -8,6 +8,34 @@
 <meta name="viewport" content="width=device-width, initial-scale =1">
 </head>
 
+<style>
+/*Dropdown lists Taken from https://www.w3schools.com/howto/howto_js_accordion.asp*/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+
 <body>
     <div class="topnav">
   		<a href="main">Home</a>
@@ -20,39 +48,67 @@
     <div class="content"> 
         <h1>UC Berkeley Coursework</h1>
         <p>As a ME and EECS double major, I have taken a variety of courses. Below is a list of all of the courses I have taken from each department.</p>
-        <p><b>EECS:</b></p>
+
+        <button class="accordion"><b>EECS</b></button>
+        <div class="panel">
+            <br/>
             <l>Introduction to Computer Programming for Scientists and Engineers--MATLAB (E 7)</l>
             <l><b>Data Structures (CS 61B)</b></l>
-       	    <l><b>Great Ideas in Computer Architecture (Machine Structures) (CS 61C)</b></l>
-       	    <l>Discrete Mathematics and Probability Theory (CS 70)</l>
-       	    <l>Efficient Algorithms and Intractable Problems (CS 170)</l>
-       	    <l>Artificial Intelligence (CS188) [in progress]</l>
-		  <l><b>Probability and Random Processes (EECS 126)</b></l>
-		  <l>Optimization Models in Engineering (EECS 127) [in progress]</l>
-		  <l>Designing Information Devices and Systems (EE 16A &amp; 16B)</l>
+            <l><b>Great Ideas in Computer Architecture (Machine Structures) (CS 61C)</b></l>
+            <l>Discrete Mathematics and Probability Theory (CS 70)</l>
+            <l>Efficient Algorithms and Intractable Problems (CS 170)</l>
+            <l>Artificial Intelligence (CS188) [in progress]</l>
+            <l><b>Probability and Random Processes (EECS 126)</b></l>
+            <l>Optimization Models in Engineering (EECS 127) [in progress]</l>
+            <l>Designing Information Devices and Systems (EE 16A &amp; 16B)</l>
+            <br/>
+        </div>
 		
 
-	    <p><b>MechE:</b></p>
+	    <button class="accordion"><b>MechE</b></button>
+      <div class="panel">
+          <br/>
     	    <l>Neworks, Crowds, Markets (ME 193B) [in progress]</l>
-            <l><b>Design of Microprocessor Based Mechanical Systems (ME 135)</b></l>
-            <l>Dynamic Systems and Feedback Control (ME 132)</l>
-            <l>Feedback Control Systems (ME 134) [in progress]</l>
-            <l>Engineering Mechanics--Dynamics (ME 104)</l>
-            <l><b>Fluid Mechanics (ME 106)</b></l>
-            <l>Mechanical Behavior of Engineering Materials (ME 108)</l>
-            <l><b>Heat Transfer (ME 109)</b></l>
-            <l>Thermodynamics (ME 40)</l>
-            <l>Solid Mechanics (ME C85)</l>
-            <l>Visualization for Design (E 25)</l>
-            <l>Three-Dimensional Modeling for Design (E 26)</l>
-            <l>Manufacturing and Tolerancing (E 27)</l>
+          <l><b>Design of Microprocessor Based Mechanical Systems (ME 135)</b></l>
+          <l>Dynamic Systems and Feedback Control (ME 132)</l>
+          <l>Feedback Control Systems (ME 134) [in progress]</l>
+          <l>Engineering Mechanics--Dynamics (ME 104)</l>
+          <l><b>Fluid Mechanics (ME 106)</b></l>
+          <l>Mechanical Behavior of Engineering Materials (ME 108)</l>
+          <l><b>Heat Transfer (ME 109)</b></l>
+          <l>Thermodynamics (ME 40)</l>
+          <l>Solid Mechanics (ME C85)</l>
+          <l>Visualization for Design (E 25)</l>
+          <l>Three-Dimensional Modeling for Design (E 26)</l>
+          <l>Manufacturing and Tolerancing (E 27)</l>
+          <br/>
+      </div>
+
 		<p>Bolded are some of my favorites so far, but my abosolute favorite is EECS 126: Probability and Random Processes.</p>
 
 	    <h1>The 4</h1>
         
-        	<p>Some of you may know that I've had a cumulative 4.0 for some time at Berkeley (5 semesters to be exact), but I am now rocking a solid 3.9. There were a lot of things that I learned through this journey, and you can read more about that story <a href="resources/the4.pdf">here</a></p>
+        	<p>Some of you may know that I've had a cumulative 4.0 for some time at Berkeley (5 semesters to be exact), but I am now rocking a solid 3.9. There were a lot of things that I learned through this journey, and you can read more about that story <a href="resources/the4.pdf">here</a> </p>
 
 	    <br/>
     </div>
 </body>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </html>
