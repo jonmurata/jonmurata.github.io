@@ -11,10 +11,31 @@ h1 {
     margin-left: 10px;
 }
 
+closeHeadTop {
+    color: black;
+    font-size: 200%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+closeHeadBot {
+    color: black;
+    font-size: 110%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
 p {
     color: black;
     font-size: 120%;
     margin-left: 20px;
+}
+
+rightLink {
+    position: absolute;
+    color: black;
+    right: 100px;
+    font-size: 120%;
 }
 
 g {
