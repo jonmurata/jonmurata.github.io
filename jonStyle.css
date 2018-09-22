@@ -1,7 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif, Verdana;
-    background-image: url(images/paper.jpg);
     background-blend-mode: lighten;
+    background-color: #FFF9DF;
+    /* FFFDE4 nice light yellow/greenish*/
     margin: 0;
 }
 
