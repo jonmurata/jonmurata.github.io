@@ -78,7 +78,8 @@ x {
 /* Taken from w3 shcools online https://www.w3schools.com/howto/howto_js_topnav.asp */
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #99AAFE;
+    background-color: #9FBBFF;
+    /* Old color: #99AAFE */
     overflow: hidden;
 }
 
