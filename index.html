@@ -1,53 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="jonmurata.github.io">
-
+<html>
 <head>
-<title>jon</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale =1">
-
-<style>
-h1 {
-    color: black;
-    font-size: 300%;
-}
-p {
-    color: black;
-    font-size: 100%;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
-
-a:link {
-	color: black;
-}
-a:hover {
-	color: blue;
-}
-
-.header {
-    padding: 80px;
-    text-align: center;
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <title>Jon Murata</title>
+    <link rel='stylesheet prefetch'
+          href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/jonStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
-
+<script src="https://use.fontawesome.com/0a3295e6a3.js"></script>
 <body>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<nav id="navbar" class="navbar navbar-light fixed-top justify-content-end py-0">
+    <a id="home" class="nav-link" href="#">Home</a>
+    <a id="about" class="nav-link" href="#">About</a>
+    <a id="teaching" class="nav-link" href="#">Teaching</a>
+    <a id="more" class="nav-link" href="#">More</a>
+    <a class="nav-link"  href="https://jonmurata.github.io/resources/JonathanMurataWebResume.pdf"><i class="far fa-file-alt fa-3x"></i></a>
+</nav>
+<div id="banner">
+    <div id="bannertextwrapper">
+        <div id="bannertext" style="display: none">
+            <p style="font-size: 7em">jon.</p>
+        </div>
 
-    <div class="header">
-        <h1> <a href="main" style="text-decoration:none">jon.</a> </h1>
     </div>
+</div>
+<div id="main" class="container-fluid" style="margin-top:75px">
+    <div id="introduction" class="jumbotron jumbotron-fluid mx-5">
+        <div class="container-fluid row mx-auto d-flex flex-column h-100">
+          <h1 class="display-3 pfptitle">Jonathan Murata</h1>
+          <hr class="mt-2 mb-3">
+        </div>
+        <div class="container-fluid row mx-auto">
+            <div id="profilecontainer" class="container-fluid col-lg-1 col-md-6 col-sm-8 px-5">
+                <img id="profile" class="img-fluid rounded-circle mx-auto " src="img/jonmurata.jpeg"
+                     style="border-style: solid; border-width: 5px">
+            </div>
+            <div class="container col-lg-8">
+                <p><font size="4">Glad you could make it here today! My name is Jonathan Murata, but I go by Jon since most people (myself included) are too lazy to say Jonathan. I'm a senior double majoring in <b>Electrical Engineering & Computer Science</b> and <b>Mechanical Engineering</b> at the University of California, Berkeley. Yes, it's quite the mouthful every time I have to say it, so I usually just say I'm CS.</font></p>
+                <p><font size="4">If you're interested in learning more about me, you've come to the right place! Scroll down to see some cool stuff. If you just want an overview, this box should suffice! I was born and raised in Hawaii, but you probably couldn't tell given my pidgin and surfing skills. I'm currently living in Berkeley, CA and am looking for a job/thinking about graduate school, but we'll see where life takes me. If you are a potential employer, don't worry; the only thing I'm indecisive about is this one decision and where to eat lunch.</font></p>
+                <p><font size="4">in the past few semesters, a lot of my time has been devoted to TA'ing for CS classes. In the little free time I have, I like to do the basics: eat good food and take long naps. When that gets a little too boring, I hang out with friends, play videogames, and think about how I should be coding or something instead of watching youtube videos.</font></p>
+            </div>
+        </div>
+    </div>
+    <div id="teachLink" class="container-fluid">
+        <h2>Teaching</h2>
+        <hr class="mt-2 mb-3">
+        <div class="container-fluid">
+            If you are here looking for my course resources, links are below.
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <a href="https://jonmurata.github.io/CS162_Sp19/"><img class=".img-fluid logo figure-img img-fluid rounded shrink2" src="img/beans.png">
+                    <p class="my-1" style="font-size: 1.25rem">CS 162 Spring 2019 (live)</p></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a href="https://jonmurata.github.io/CS61C_Fa18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
+                    <p class="my-1" style="font-size: 1.25rem">CS 61C Fall 2018 (archive)</p></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a href="https://jonmurata.github.io/CS61C_Su18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
+                    <p class="my-1" style="font-size: 1.25rem">CS 61C Summer 2018 (archive)</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="extra" class="container-fluid mt-5">
+        <h2>More Stuff Coming Soon!</h2>
+        <hr class="my-2">
+        <p class="mb-5">
+        Don't be sad, this is a work in progress! There will be more here shortly.
+    </div>
+</div>
 
-    <article>
-       <!--  Hi! My name is Jon! This sucks right now, but it will look beautiful in a month or so. -->
-
-    </article> 
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src="js/banner.js"></script>
 </body>
 </html>
