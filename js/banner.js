@@ -3,9 +3,9 @@ $(document).ready(function () {
 
     $(window).on("scroll",function(e){
        if ($(window).scrollTop() < 300) {
-           $("#navbar").removeClass('active');
+           $("#navbar").removeClass('banactive');
        } else {
-           $("#navbar").addClass('active');
+           $("#navbar").addClass('banactive');
        }
     });
 
