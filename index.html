@@ -18,6 +18,7 @@
         <a id="home" class="nav-link" href="#">Home</a>
         <a id="about" class="nav-link" href="#">About</a>
         <a id="teaching" class="nav-link" href="#">Teaching</a>
+        <a id="projects" class="nav-link" href="#">Projects</a>
         <a id="more" class="nav-link" href="#">More</a>
         <a class="nav-link"  href="https://www.linkedin.com/in/jmurata/"><i class="fa fa-linkedin-square fa-3x"></i></a>
         <a class="nav-link"  href="https://jonmurata.github.io/resources/Jonathan-Murata-Resume-Web.pdf"><i class="far fa-file-alt fa-3x"></i></a>
@@ -50,7 +51,7 @@
             </div>
         </div>
         <div id="teachLink" class="container-fluid">
-            <h2>Teaching</h2>
+            <h1>Teaching</h1>
             <hr class="mt-2 mb-3">
             <div class="container-fluid">
                 <div class="row">
@@ -268,13 +269,58 @@
             <hr class="mt-2 mb-3">
           </div>
         </div>
+        <div id="proj" class="container-fluid">
+            <h1>Projects</h1>
+            <hr class="my-2">
+            <div class="row">
+              <div class="col-md-4 text-center jumbotron proj1">
+                  <h3>BobaBot</h3>
+                  <img id="profile" class="img-fluid rounded" src="img/bobabot.jpg" width="80%"
+                    style="border-style: solid; border-width: 2px">
+                  <br>
+                  <br>
+                  <ul class="text-left">
+                    <li class="bobaelem">3-Stage automatic boba dispenser. Tapioca Pearls -> Milk Tea -> Creamer.</li>
+                    <li class="bobaelem">1 raspberry Pi, 1 arduino, 1 DC motor, 2 DC pumps, 1 servo, lots of boba.</li>
+                    <li class="bobaelem">Programmed motor synchronization and server in Python.</li>
+                    <a href="https://jonmurata.github.io/bobabot/"><li class="bobaelem">More information (video demo).</li></a>
+                  </ul>
+              </div>
+              <div class="col-md-4 text-center jumbotron proj2">
+                  <h3>Kingdom Conqueror</h3>
+                  <img id="profile" class="img-fluid rounded" src="img/graph.png" width="92%"
+                    style="border-style: solid; border-width: 2px">
+                  <br>
+                  <br>
+                  <ul class="text-left">
+                    <li class="nodeelem nodeOne" style="font-size:1.2em">Find the least cost conquering tour (travel + conquering time) of a given graph.</li>
+                    <li class="nodeelem nodeTwo" style="font-size:1.2em">Converted to ILP and used Gurobi Optimization software to solve. Programmed in Python.</li>
+                    <li class="nodeelem nodeThree" style="font-size:1.2em">Competition Rank #4 out of 230 Teams (CS 170 Spring 2018).</li>
+                  </ul>
+              </div>
+              <div class="col-md-4 text-center jumbotron proj3">
+                  <h3>BearWatch</h3>
+                  <img id="profile" class="img-fluid rounded" src="img/bearResize.jpg" width="70%"
+                    style="border-style: solid; border-width: 2px">
+                  <br>
+                  <br>
+                  <ul class="text-left">
+                    <li class="bearelem" style="font-size:1.2em">2-camera security tower system. Bottom camera watches belongings. Top camera tracks and records thief.</li>
+                    <li class="bearelem" style="font-size:1.2em">Sounds an alarm when items leave the selected area. Deactivated with special key.</li>
+                    <li class="bearelem" style="font-size:1.2em">Programmed in LabVIEW.</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
         <div id="extra" class="container-fluid mt-5">
             <h2>More Stuff Coming Soon!</h2>
             <hr class="my-2">
             <p class="mb-5">
-            This website is currently a work in progress. There will be more sections soon!
+            This website is currently a work in progress. There will be more sections soon!</p>
         </div>
     </div>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

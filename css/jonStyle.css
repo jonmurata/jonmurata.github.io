@@ -6,7 +6,7 @@ html,body{
 #jonnav{
     width: 100%
     font-family:'Open Sans',sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     -webkit-transition: all 0.8s ease;
     background-color: none;
 }
@@ -59,4 +59,95 @@ html,body{
 .shrink2 {
   width: 19%;
   height: auto;
+}
+
+.proj1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ebc3ca;
+}
+
+.bobaelem {
+  list-style:none;
+  vertical-align: middle;
+  font-size:1.2em;
+}
+
+.bobaelem:before {
+  content:'';
+  display:inline-block;
+  height:1.75em;
+  width:1.75em;
+  vertical-align: middle;
+  background-image:url(../img/cup.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.proj2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e4f0ff;
+}
+
+.nodeelem {
+  list-style:none;
+  vertical-align: middle;
+  font-size:1.2em;
+}
+
+.nodeOne:before {
+  content:'';
+  display:inline-block;
+  height:1.75em;
+  width:1.75em;
+  vertical-align: middle;
+  background-image:url(../img/oneNode.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.nodeTwo:before {
+  content:'';
+  display:inline-block;
+  height:1.75em;
+  width:1.75em;
+  vertical-align: middle;
+  background-image:url(../img/twoNode.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.nodeThree:before {
+  content:'';
+  display:inline-block;
+  height:1.75em;
+  width:1.75em;
+  vertical-align: middle;
+  background-image:url(../img/threeNode.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.proj3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f69c5d;
+}
+
+.bearelem {
+  list-style:none;
+  vertical-align: middle;
+  font-size:1.2em;
+}
+
+.bearelem:before {
+  content:'';
+  display:inline-block;
+  height:1.75em;
+  width:1.75em;
+  vertical-align: middle;
+  background-image:url(../img/badBear.png);
+  background-size:contain;
+  background-repeat:no-repeat;
 }

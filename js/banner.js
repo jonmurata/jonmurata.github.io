@@ -17,13 +17,19 @@ $(document).ready(function () {
 
     $("#about").click(function () {
         $("html, body").animate(
-	    { scrollTop: $("#introduction").offset().top - 200 }, 1000
+	    { scrollTop: $("#introduction").offset().top - 100 }, 1000
         );
     });
 
     $("#teaching").click(function () {
         $("html, body").animate(
-            { scrollTop: $("#teachLink").offset().top }, 1000
+            { scrollTop: $("#teachLink").offset().top - 200}, 1000
+        );
+    });
+
+    $("#projects").click(function () {
+        $("html, body").animate(
+            { scrollTop: $("#proj").offset().top - 100}, 1000
         );
     });
 
