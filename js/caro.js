@@ -3,6 +3,10 @@ $(document).ready(function() {
   //Set the carousel options
   $('#quote-carousel').carousel({
     pauseOnHover: true,
-    interval: 1000,
+    interval: 3000,
   });
-    });
+  $('#quote-carousel-2').carousel({
+    pauseOnHover: true,
+    interval: 3000,
+  });
+});

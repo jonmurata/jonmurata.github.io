@@ -3,85 +3,294 @@
 <head>
     <meta charset="UTF-8">
     <title>Jon Murata</title>
-    <link rel='stylesheet prefetch'
-          href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="css/jonStyle.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet prefetch"        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jonStyle.css">
+    <link rel="stylesheet" href="css/caro.css">
 </head>
-<script src="https://use.fontawesome.com/0a3295e6a3.js"></script>
-<body>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<nav id="navbar" class="navbar navbar-light fixed-top justify-content-end py-0">
-    <a id="home" class="nav-link" href="#">Home</a>
-    <a id="about" class="nav-link" href="#">About</a>
-    <a id="teaching" class="nav-link" href="#">Teaching</a>
-    <a id="more" class="nav-link" href="#">More</a>
-    <a class="nav-link"  href="https://www.linkedin.com/in/jmurata/"><i class="fa fa-linkedin-square fa-3x"></i></a>
-    <a class="nav-link"  href="https://jonmurata.github.io/resources/Jonathan-Murata-Resume-Web.pdf"><i class="far fa-file-alt fa-3x"></i></a>
-</nav>
-<div id="banner">
-    <div id="bannertextwrapper">
-        <div id="bannertext" style="display: none">
-            <p style="font-size: 7em">jon.</p>
-        </div>
 
-    </div>
-</div>
-<div id="main" class="container-fluid" style="margin-top:75px">
-    <div id="introduction" class="jumbotron jumbotron-fluid mx-5">
-        <div class="container-fluid row mx-auto d-flex flex-column h-100">
-          <h1 class="display-3 pfptitle">Jonathan Murata</h1>
-          <hr class="mt-2">
-        </div>
-        <div class="container-fluid row mx-auto">
-            <div id="profilecontainer" class="container-fluid col-lg-1 col-md-6 col-sm-8 px-5">
-                <img id="profile" class="img-fluid rounded-circle mx-auto " src="img/jonmurata.jpeg"
-                     style="border-style: solid; border-width: 5px">
-            </div>
-            <div class="container col-lg-8">
-                <p style="font-size: 1.25em">Glad you could make it here today! My name is Jonathan Murata, but I go by Jon since most people (myself included) are too lazy to say Jonathan. I'm a senior double majoring in <b>Electrical Engineering & Computer Science</b> and <b>Mechanical Engineering</b> at the University of California, Berkeley. Yes, it's quite the mouthful every time I have to say it, so I usually just say I'm CS.</p>
-                <p style="font-size: 1.25em">If you're interested in learning more about me, you've come to the right place! Scroll down to see some cool stuff. If you just want an overview, this box should suffice! I was born and raised in Hawaii, but you probably couldn't tell given my pidgin and surfing skills. I'm currently living in Berkeley, CA and am looking for a job/thinking about graduate school, but we'll see where life takes me. If you are a potential employer, don't worry; the only thing I'm indecisive about is this one decision and where to eat lunch.</p>
-                <p style="font-size: 1.25em">in the past few semesters, a lot of my time has been devoted to TA'ing for CS classes. In the little free time I have, I like to do the basics: eat good food and take long naps. When that gets a little too boring, I bake (mostly cookies), hang out with friends, play videogames, and think about how I should be coding or something instead of watching youtube videos.</p>
-            </div>
-        </div>
-    </div>
-    <div id="teachLink" class="container-fluid">
-        <h2>Teaching</h2>
-        <hr class="mt-2 mb-3">
-        <div class="container-fluid">
-            If you are here looking for my course resources, links are below.
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-4 text-center">
-                    <a href="https://jonmurata.github.io/CS162_Sp19/"><img class=".img-fluid logo figure-img img-fluid rounded shrink2" src="img/beans.png">
-                    <p class="my-1" style="font-size: 1.25rem">CS 162 Spring 2019 (live)</p></a>
-                </div>
-                <div class="col-4 text-center">
-                    <a href="https://jonmurata.github.io/CS61C_Fa18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
-                    <p class="my-1" style="font-size: 1.25rem">CS 61C Fall 2018 (archive)</p></a>
-                </div>
-                <div class="col-4 text-center">
-                    <a href="https://jonmurata.github.io/CS61C_Su18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
-                    <p class="my-1" style="font-size: 1.25rem">CS 61C Summer 2018 (archive)</p></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="extra" class="container-fluid mt-5">
-        <h2>More Stuff Coming Soon!</h2>
-        <hr class="my-2">
-        <p class="mb-5">
-        Don't be sad, this is a work in progress! There will be more here shortly.
-    </div>
-</div>
+<body data-spy="scroll" data-target="#jonnav">
+    <nav id="jonnav" class="navbar navbar-light fixed-top justify-content-end py-0">
+        <a id="home" class="nav-link" href="#">Home</a>
+        <a id="about" class="nav-link" href="#">About</a>
+        <a id="teaching" class="nav-link" href="#">Teaching</a>
+        <a id="more" class="nav-link" href="#">More</a>
+        <a class="nav-link"  href="https://www.linkedin.com/in/jmurata/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a class="nav-link"  href="https://jonmurata.github.io/resources/Jonathan-Murata-Resume-Web.pdf"><i class="far fa-file-alt fa-3x"></i></a>
+    </nav>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-<script src="js/banner.js"></script>
+    <div id="banner">
+        <div id="bannertextwrapper">
+            <div id="bannertext" style="display: none">
+                <p style="font-size: 7em">jon.</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="main" class="container-fluid" style="margin-top:75px">
+        <div id="introduction" class="jumbotron jumbotron-fluid mx-5">
+            <div class="container-fluid row mx-auto d-flex flex-column h-100">
+              <h1 class="display-3 pfptitle">Jonathan Murata</h1>
+              <hr class="mt-2">
+            </div>
+            <div class="container-fluid row mx-auto">
+                <div id="profilecontainer" class="container-fluid col-lg-1 col-md-6 col-sm-8 px-5">
+                    <img id="profile" class="img-fluid rounded-circle mx-auto " src="img/jonmurata.jpeg"
+                         style="border-style: solid; border-width: 5px">
+                </div>
+                <div class="container col-lg-8">
+                    <p style="font-size: 1.25em">Glad you could make it here today! My name is Jonathan Murata, but I go by Jon since most people (myself included) are too lazy to say Jonathan. I'm a senior double majoring in <b>Electrical Engineering & Computer Science</b> and <b>Mechanical Engineering</b> at the University of California, Berkeley. Yes, it's quite the mouthful every time I have to say it, so I usually just say I'm CS.</p>
+                    <p style="font-size: 1.25em">If you're interested in learning more about me, you've come to the right place! Scroll down to see some cool stuff. If you just want an overview, this box should suffice! I was born and raised in Hawaii, but you probably couldn't tell given my pidgin and surfing skills. I'm currently living in Berkeley, CA and am applying for jobs/thinking about graduate school, but we'll see where life takes me. If you are a potential employer, don't worry; the only thing I'm indecisive about is this one decision and where to eat lunch.</p>
+                    <p style="font-size: 1.25em">In the past few semesters, a lot of my time has been devoted to TA'ing for CS classes. In the little free time I have, I like to do the basics: eat good food and take long naps. When that gets a little too boring, I bake (mostly cookies), hang out with friends, play videogames, and think about how I should be coding or something instead of watching youtube videos.</p>
+                </div>
+            </div>
+        </div>
+        <div id="teachLink" class="container-fluid">
+            <h2>Teaching</h2>
+            <hr class="mt-2 mb-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <p style="font-size: 1.1em">I usually give out the direct links to these pages, but if you are here searching for my course resources or are interested in what I teach, links are below.</p>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <a href="https://jonmurata.github.io/CS162_Sp19/"><img class=".img-fluid logo figure-img img-fluid rounded shrink2" src="img/beans.png">
+                        <p class="my-1" style="font-size: 1.25rem">CS 162 Spring 2019 (live)</p></a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="https://jonmurata.github.io/CS61C_Fa18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
+                        <p class="my-1" style="font-size: 1.25rem">CS 61C Fall 2018 (archive)</p></a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="https://jonmurata.github.io/CS61C_Su18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
+                        <p class="my-1" style="font-size: 1.25rem">CS 61C Summer 2018 (archive)</p></a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <p style="font-size: 1.1em">Teaching CS is the most rewarding thing I've done at Berkeley! I put 110% into my work to ensure students have a positive experience with the class. GSI's may grade exams and assignments, but students grade us with course feedback. Below are some stats and comments about my teaching. Having it here is a nice visual for me to see how I improved and what I still need to work on!</p>
+                </div>
+                <hr class="mt-2 mb-3">
+                <div class="row">
+                  <h4>CS 61C: Fall 2018 (97 Student Repsonses)</h4>
+                  <hr class="mt-2 mb-3">
+                </div>
+                <div class="row">
+                  <div class="col-md-5">
+                    Teaching Effectiveness:
+                    <div class="progress" style="height: 25px">
+                      <div class="progress-bar" role="progressbar" style="width: 93.2%; height: 100%; background-color:#7480d9;" aria-valuenow="4.66" aria-valuemin="0" aria-valuemax="5">4.66/5</div>
+                    </div>
+                    Helpful in Understanding material:
+                    <div class="progress"  style="height: 25px">
+                      <div class="progress-bar" role="progressbar" style="width: 94.2%; height: 100%; background-color:#7480d9" aria-valuenow="4.71" aria-valuemin="0" aria-valuemax="5">4.71/5</div>
+                    </div>
+                    Is Well Prepared:
+                    <div class="progress" style="height: 25px">
+                      <div class="progress-bar" role="progressbar" style="width: 95.6%; height: 100%; background-color:#7480d9" aria-valuenow="4.78" aria-valuemin="0" aria-valuemax="5">4.78/5</div>
+                    </div>
+                    Communicates Ideas Effectively:
+                    <div class="progress" style="height: 25px">
+                      <div class="progress-bar" role="progressbar" style="width: 94%; height: 100%; background-color:#7480d9" aria-valuenow="4.70" aria-valuemin="0" aria-valuemax="5">4.70/5</div>
+                    </div>
+                    Answers Questions Accurately:
+                    <div class="progress" style="height: 25px">
+                      <div class="progress-bar" role="progressbar" style="width: 94.2%; height: 100%; background-color:#7480d9" aria-valuenow="4.71" aria-valuemin="0" aria-valuemax="5">4.71/5</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-7">
+                    <div class="container">
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                      <!-- Bottom Carousel Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#quote-carousel" data-slide-to="1"></li>
+                        <li data-target="#quote-carousel" data-slide-to="2"></li>
+                        <li data-target="#quote-carousel" data-slide-to="3"></li>
+                        <li data-target="#quote-carousel" data-slide-to="4"></li>
+                        <li data-target="#quote-carousel" data-slide-to="5"></li>
+                      </ol>
+
+                      <!-- Carousel Slides / Quotes -->
+                      <div class="carousel-inner" role="listbox">
+
+                        <div class="carousel-item p-4 text-center active">
+                          <blockquote>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>It was really evident that Jon cared a lot about his students, and I appreciate that he took the time to thoroughly answer my questions, especially when my questions seemed redundant or basic. Often it was his attention to detail when answering these questions that helped me fix misconceptions I had.</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <div class="carousel-item p-4 text-center">
+                          <blockquote>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>I think Jon was a great GSI. He was really helpful in Lab when my partner and I got stuck in a few places, and his discussions allowed me to understand the material being taught in 61C at a greater depth. There were times when I was really confused by what went on in lecture, and Jon's discussions often left me with a clearer understanding of how to interpret the material.</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <div class="carousel-item p-4 text-center">
+                          <blockquote>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>He was always prepared, and he was really good at explaining concepts/answering questions. He was encouraging, and you could tell he genuinely cared about his students. You made 61C a little less painful, thank you so much!</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <div class="carousel-item p-4 text-center">
+                          <blockquote>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>Jon is an amazing GSI! His discussions are incredibly helpful, and I really like how he devotes the time in discussion to going through nearly all the problems and explaining the material. I felt like he went at a really good pace and out of the multiple discussions I tried I ultimately felt like I learned the most/ended up going to his. 10/10 would recommend</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <div class="carousel-item p-4 text-center">
+                          <blockquote>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>Jon has really helped clear up concepts presented in lecture, and without a GSI as involved and invested in his students as Jon, I think my experience in 61C would be completely different.</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <div class="carousel-item p-4 text-center">
+                          <blockquote>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <p>One of the best GSIs I've ever had. Explains concepts very well, writes notes on the projector in a very clear fashion. Very logical and precise, good at time management, I learn a lot in each class session, both for discussion and lab. Thank you!</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <a class="carousel-control-prev" href="#quote-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#quote-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <hr class="mt-2 mb-3">
+              <div class="row">
+                <h4>CS 61C: Summer 2018 (43 Student Repsonses)</h4>
+                <hr class="mt-2 mb-3">
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  Teaching Effectiveness:
+                  <div class="progress" style="height: 25px">
+                    <div class="progress-bar" role="progressbar" style="width: 86.6%; height: 100%; background-color:#7480d9" aria-valuenow="4.33" aria-valuemin="0" aria-valuemax="5">4.33/5</div>
+                  </div>
+                  Helpful in Understanding material:
+                  <div class="progress"  style="height: 25px">
+                    <div class="progress-bar" role="progressbar" style="width: 95%; height: 100%; background-color:#7480d9" aria-valuenow="4.75" aria-valuemin="0" aria-valuemax="5">4.75/5</div>
+                  </div>
+                  Is Well Prepared:
+                  <div class="progress" style="height: 25px">
+                    <div class="progress-bar" role="progressbar" style="width: 94.6%; height: 100%; background-color:#7480d9" aria-valuenow="4.73" aria-valuemin="0" aria-valuemax="5">4.73/5</div>
+                  </div>
+                  Communicates Ideas Effectively:
+                  <div class="progress" style="height: 25px">
+                    <div class="progress-bar" role="progressbar" style="width: 93%; height: 100%; background-color:#7480d9" aria-valuenow="4.65" aria-valuemin="0" aria-valuemax="5">4.65/5</div>
+                  </div>
+                  Answers Questions Accurately:
+                  <div class="progress" style="height: 25px">
+                    <div class="progress-bar" role="progressbar" style="width: 91.2%; height: 100%; background-color:#7480d9" aria-valuenow="4.56" aria-valuemin="0" aria-valuemax="5">4.56/5</div>
+                  </div>
+                </div>
+
+                <div class="col-md-7">
+                  <div class="container">
+                  <div class="carousel slide" data-ride="carousel" id="quote-carousel-2">
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#quote-carousel-2" data-slide-to="0" class="active"></li>
+                      <li data-target="#quote-carousel-2" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item p-4 text-center active">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p>Jonathan's attitude and helpfulness was one of the contributors to how much I gained from going to lab. He was able to answer my in–scope questions clearly and helped me understand difficult practical course material. Lab was enjoyable</p>
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <div class="carousel-item p-4 text-center">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p><3 great cookies. excellent teaching</p>
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#quote-carousel-2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#quote-carousel-2" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <hr class="mt-2 mb-3">
+          </div>
+        </div>
+        <div id="extra" class="container-fluid mt-5">
+            <h2>More Stuff Coming Soon!</h2>
+            <hr class="my-2">
+            <p class="mb-5">
+            This website is currently a work in progress. There will be more sections soon!
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    <script src="https://use.fontawesome.com/0a3295e6a3.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA=" crossorigin="anonymous"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="js/caro.js"></script>
+    <script src="js/banner.js"></script>
 </body>
 </html>
