@@ -1,0 +1,137 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @jonmurata Sign out
+0
+0 0 jonmurata/jonmurata.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+jonmurata.github.io/jonStyle.css
+716d85b  on Sep 21, 2018
+@jonmurata jonmurata header color
+    
+108 lines (92 sloc)  1.72 KB
+body {
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    background-blend-mode: lighten;
+    background-color: #FFF9DF;
+    /* FFFDE4 nice light yellow/greenish*/
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 200%;
+    margin-left: 10px;
+}
+
+pSlantedFont {
+    color:black;
+    font-size: 150%;
+    margin-left:40px;
+    font-family: 'Courgette';
+    display:block;
+}
+
+closeHeadTop {
+    color: black;
+    font-size: 200%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+closeHeadBot {
+    color: black;
+    font-size: 110%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+p {
+    color: black;
+    font-size: 120%;
+    margin-left: 20px;
+}
+
+rightLink {
+    position: absolute;
+    color: black;
+    right: 100px;
+    font-size: 120%;
+}
+
+g {
+    color: gray;
+    font-size: 100%;
+    margin-left: 20px;
+}
+
+l {
+	display: block;
+    color: black;
+    font-size: 100%;
+    margin-left: 40px;
+}
+
+x {
+    background-color: #C9C9C9;
+    padding: 2px;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+}
+
+
+/* Taken from w3 shcools online https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #9FBBFF;
+    /* Old color: #99AAFE */
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #8195FF;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #F3FF00;
+    color: black;
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
