@@ -151,3 +151,9 @@ html,body{
   background-size:contain;
   background-repeat:no-repeat;
 }
+
+.academ {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e3e3e3;
+}

@@ -33,6 +33,12 @@ $(document).ready(function () {
         );
     });
 
+    $("#academics").click(function () {
+        $("html, body").animate(
+            { scrollTop: $("#academicsContent").offset().top - 100}, 1000
+        );
+    });
+
     $("#more").click(function () {
         $("html, body").animate(
             { scrollTop: $("#extra").offset().top }, 1000
