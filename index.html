@@ -11,6 +11,29 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/jonStyle.css">
     <link rel="stylesheet" href="css/caro.css">
+    <link rel="stylesheet" href="css/but.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+
+     <script src="https://use.fontawesome.com/0a3295e6a3.js"></script>
+
+    <script>
+        $( function( )
+        {
+            $( "[data-toggle='tooltip']").tooltip( {
+              animated: 'fade',
+              html: true
+            });
+        });
+    </script>
+
+    <script src="js/caro.js"></script>
+    <script src="js/banner.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
 </head>
 
 <body data-spy="scroll" data-target="#jonnav">
@@ -63,23 +86,23 @@
                 <div class="row">
                     <div class="col-3 text-center">
                         <a href="CS162_Su19/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs162jonbean.png">
-                        <p class="my-1" style="font-size: 1.25rem">CS 162 Summer 2019 (pre)</p></a>
+                        <p class="my-1" style="font-size: 1.25rem">CS 162 Su 2019 (pre)</p></a>
                     </div>
                     <div class="col-3 text-center">
                         <a href="CS61BL_Su19/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61blbear.png">
-                        <p class="my-1" style="font-size: 1.25rem">CS 61BL Summer 2019 (pre)</p></a>
+                        <p class="my-1" style="font-size: 1.25rem">CS 61BL Su 2019 (pre)</p></a>
                     </div>
                     <div class="col-2 text-center">
                         <a href="CS162_Sp19/"><img class=".img-fluid logo figure-img img-fluid rounded shrink2" src="img/KuBeans.png">
-                        <p class="my-1" style="font-size: 1.25rem">CS 162 Spring 2019 (live)</p></a>
+                        <p class="my-1" style="font-size: 1.25rem">CS 162 Sp 2019 (live)</p></a>
                     </div>
                     <div class="col-2 text-center">
                         <a href="CS61C_Fa18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
-                        <p class="my-1" style="font-size: 1.25rem">CS 61C Fall 2018 (archive)</p></a>
+                        <p class="my-1" style="font-size: 1.25rem">CS 61C Fa 2018 (archive)</p></a>
                     </div>
                     <div class="col-2 text-center">
                         <a href="CS61C_Su18/"><img class=".img-fluid logo figure-img img-fluid rounded shrink" src="img/cs61c.png">
-                        <p class="my-1" style="font-size: 1.25rem">CS 61C Summer 2018 (archive)</p></a>
+                        <p class="my-1" style="font-size: 1.25rem">CS 61C Su 2018 (archive)</p></a>
                     </div>
                 </div>
                 <br>
@@ -88,7 +111,7 @@
                 </div>
                 <hr class="mt-2 mb-3">
                 <div class="row">
-                  <h4>CS 61C: Fall 2018 (97 Student Repsonses)</h4>
+                  <h4>CS 61C: Fa 2018 (97 Student Repsonses)</h4>
                   <hr class="mt-2 mb-3">
                 </div>
                 <div class="row">
@@ -212,7 +235,7 @@
               <br>
               <hr class="mt-2 mb-3">
               <div class="row">
-                <h4>CS 61C: Summer 2018 (43 Student Repsonses)</h4>
+                <h4>CS 61C: Su 2018 (43 Student Repsonses)</h4>
                 <hr class="mt-2 mb-3">
               </div>
               <div class="row">
@@ -302,7 +325,7 @@
                     <li class="bobaelem">3-Stage automatic boba dispenser. Tapioca Pearls -> Milk Tea -> Creamer.</li>
                     <li class="bobaelem">1 raspberry Pi, 1 arduino, 1 DC motor, 2 DC pumps, 1 servo, lots of boba.</li>
                     <li class="bobaelem">Programmed motor synchronization and server in Python.</li>
-                    <a href="https://jonmurata.github.io/bobabot/"><li class="bobaelem">More information (video demo).</li></a>
+                    <a href="https://jonmurata.github.io/bobabot/"><li class="bobaelem">More darkrmation (video demo).</li></a>
                   </ul>
               </div>
               <div class="col-md-4 text-center jumbotron proj2">
@@ -314,7 +337,7 @@
                   <ul class="text-left">
                     <li class="nodeelem nodeOne" style="font-size:1.2em">Find the least cost conquering tour (travel + conquering time) of a given graph.</li>
                     <li class="nodeelem nodeTwo" style="font-size:1.2em">Converted to ILP and used Gurobi Optimization software to solve. Programmed in Python.</li>
-                    <li class="nodeelem nodeThree" style="font-size:1.2em">Competition Rank #4 out of 230 Teams (CS 170 Spring 2018).</li>
+                    <li class="nodeelem nodeThree" style="font-size:1.2em">Competition Rank #4 out of 230 Teams (CS 170 Sp 2018).</li>
                   </ul>
               </div>
               <div class="col-md-4 text-center jumbotron proj3">
@@ -338,10 +361,119 @@
           <hr class="mt-2 mb-3">
 
           <div class="text-center jumbotron academ">
-            <p style="font-size: 1.25em">My academic journey is really a story to tell. I am currently am a senior at the University of California, Berkeley studying Mechanical Engineering and Electrical Engineering & Computer Science. I didn't always have this long of an introduction, though; I started out as a MechE but eventually discovered the beauty of Computer Science. I became a part of the Berkeley CS community, taking hard courses, meeting great people, and even joining course staff as a TA. In typical Berkeley MechE fashion, a flowchart is shown below to illustrate this (stressful) journey.</p>
-            <img class="img-fluid rounded" src="img/jon_schedule.jpg">
-            <p style="font-size: 1.25em">As you can probably guess, this schedule was no walk in the park. Lots of classes :(.</p>
-            <p style="font-size: 1.25em">Eventually I would like to return to graduate school, but I am putting that on hold for now. On the MechE side, my interests involve heat transfer and controls. On the EECS side, my interests involve systems, computer architecture, and parallel computing. I have done research in biomechanics and heat transfer. I have not done research related to CS, but I hope to pursue a graduate degree in a CS-related field at some point in my life.</p>
+            <p style="font-size: 1.25em">My academic journey is really a story to tell. I graduated from the University of California, Berkeley studying Mechanical Engineering and Electrical Engineering & Computer Science. I didn't always have this long of an introduction, though; I started out as a MechE but eventually discovered the beauty of Computer Science. I became a part of the Berkeley CS community, taking hard courses, meeting great people, and even joining course staff as a TA for Data Structures, Machine Structures (Intro to Computer Architecture and low-level programming), and Operating Systems. In typical Berkeley MechE fashion, a chart is shown below to illustrate this (stressful) journey.</p>
+
+            <!-- <img class="img-fluid rounded" src="img/jon_schedule.jpg"> -->
+
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 100px">Fall 2015</th>
+                    <th style="width: 100px">Spring 2016</th>
+                    <th style="width: 100px">Summer 2016</th>
+                    <th style="width: 100px">Fall 2016</th>
+                    <th style="width: 100px">Spring 2017</th>
+                    <th style="width: 100px">Summer 2017</th>
+                    <th style="width: 100px">Fall 2017</th>
+                    <th style="width: 100px">Spring 2018</th>
+                    <th style="width: 100px">Summer 2018</th>
+                    <th style="width: 100px">Fall 2018</th>
+                    <th style="width: 100px">Spring 2019</th>
+                    <th style="width: 100px">Summer 2019</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-danger" data-toggle="tooltip" data-placement="bottom" title="US History from Late 19th Century to WW2<img src='img/course-distro/fa15/hist124a' width='350%'>">Hist 124A</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-danger" data-toggle="tooltip" data-placement="bottom" title="Reading and Composition<img src='img/course-distro/sp16/aasr2a' width='350%'>">AAS R2A</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-danger" data-toggle="tooltip" data-placement="bottom" title="University of Hawaii, Manoa: Composition 100">Comp 100</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-danger" data-toggle="tooltip" data-placement="bottom" title="Japan: Archaeological Period to 1800<img src='img/course-distro/fa16/hist118a' width='350%'>">Hist 118A</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Information Devices and Systems I<img src='img/course-distro/sp17/ee16a' width='350%'>">EE 16A</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Data Structures<img src='img/course-distro/su17/cs61bl' width='350%'>">CS 61BL</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Machine Structures<img src='img/course-distro/fa17/cs61c' width='350%'>">CS 61C</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Probability and Random Processes<img src='img/course-distro/sp18/eecs126' width='350%'>">EECS 126</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Data Structures">CS 61BL</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Operating Systems and Systems Programming<img src='img/course-distro/fa18/cs162' width='350%'>">CS 162</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom">CS 152</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Operating Systems and Systems Programming">CS 162</button></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-success" data-toggle="tooltip" data-placement="bottom" title="Calculus<br><img src='img/course-distro/fa15/math1b' width='350%'>">Math 1B</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-success" data-toggle="tooltip" data-placement="bottom" title="Multivariable Calculus<img src='img/course-distro/sp16/math53' width='350%'>">Math 53</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-success" data-toggle="tooltip" data-placement="bottom" title="Linear Algebra and Differential Equations<img src='img/course-distro/fa16/math54' width='350%'>">Math 54</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Engineering Mechanics II (Dynamics)<img src='img/course-distro/sp17/me104' width='350%'>">ME 104</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Discrete Math and Probability<img src='img/course-distro/fa17/cs70' width='350%'>">CS 70</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Efficient Algorithms and Intractable Problems<img src='img/course-distro/sp18/cs170' width='350%'>">CS 170</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Great Ideas in Computer Architecture (Machine Structures)">CS 61C</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Artificial Intelligence<img src='img/course-distro/fa18/cs188' width='350%'>">CS 188</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom">CS 189</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Data Structures">CS 61BL</button></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-success" data-toggle="tooltip" data-placement="bottom" title="Physics for Scientists and Engineers<br><img src='img/course-distro/fa15/phys7a' width='350%'>">Phys 7A</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-success" data-toggle="tooltip" data-placement="bottom" title="Physics for Scientists and Engineers<img src='img/course-distro/sp16/phys7b' width='350%'>">Phys 7B</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Thermodynamics<img src='img/course-distro/fa16/me40' width='350%'>">ME 40</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Fluid Mechanics<img src='img/course-distro/sp17/me106' width='350%'>">ME 106</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom" title="Designing Information Devices and Systems II<img src='img/course-distro/fa17/ee16b' width='350%'>">EE 16B</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Materials<img src='img/course-distro/sp18/me108' width='350%'>">ME 108</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Mechatronics Design<img src='img/course-distro/fa18/me102b' width='350%'>">ME 102B</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-warning" data-toggle="tooltip" data-placement="bottom">CS 267</button></td>
+                    <td style="width: 100px"></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Visualization for Design<img src='img/course-distro/fa15/e25' width='350%'>">E 25</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Computer Programming for Scientists and Engineers<img src='img/course-distro/sp16/e7' width='350%'>">E 7</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Solid Mechanics<img src='img/course-distro/fa16/mec85' width='350%'>">ME C85</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Dynamic Systems and Feedback<img src='img/course-distro/sp17/me132' width='350%'>">ME 132</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Control of Unmanned Aerial Vehicles">ME 136</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Heat Transfer<img src='img/course-distro/sp18/me109' width='350%'>">ME 109</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive-full btn-primary" data-toggle="tooltip" data-placement="bottom" title="Feeback Control Systems<img src='img/course-distro/fa18/me134' width='350%'>">ME 134/EE 128</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom">ME 103</button></td>
+                    <td style="width: 100px"></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Three-Dimensional Modeling for Design<img src='img/course-distro/sp16/e26' width='350%'>">E 26</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Manufacturing and Tolerancing<img src='img/course-distro/fa16/e27' width='350%'>">E 27</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom" title="Design of Microprocessor-Based Mechanical Systems<img src='img/course-distro/sp17/me135' width='350%'>">ME 135</button></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Great Ideas in Computer Architecture (Machine Structures)">CS 61C</button></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-primary" data-toggle="tooltip" data-placement="bottom">ME H194</button></td>
+                    <td style="width: 100px"></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"></td>
+                    <td style="width: 100px"><button type="button" class="btn btn-responsive btn-dark" data-toggle="tooltip" data-placement="bottom" title="Operating Systems and Systems Programming">CS 162</button></td>
+                    <td style="width: 100px"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p style="font-size: 1.25em">As you can probably guess, this schedule was no walk in the park. Lots and lots of classes :(.</p>
+            <p style="font-size: 1.25em">Eventually I may return to graduate school, but I am putting that on hold for now. On the MechE side, my interests involve heat transfer and controls. On the EECS side, my interests involve systems, computer architecture, and parallel computing. I have done research in biomechanics and heat transfer and will be working in a Systems lab over the Summer.</p>
           </div>
         </div>
         <div id="extra" class="container-fluid mt-5">
@@ -349,24 +481,10 @@
             <hr class="my-2">
             <p class="mb-5">
             This website is currently a work in progress. There will be more sections in the future!</p>
+            </button> 
         </div>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-            crossorigin="anonymous"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-    <script src="https://use.fontawesome.com/0a3295e6a3.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA=" crossorigin="anonymous"></script>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <script src="js/caro.js"></script>
-    <script src="js/banner.js"></script>
+    <!-- Padding  -->
+    <br><br><br><br>
 </body>
 </html>
