@@ -12,7 +12,8 @@
 }
 
 .boba {
-  background: #B04262;
+  /* background: #F018A4; */
+  background: #F47BCA;
 }
 
 .bearwatch {
@@ -22,6 +23,24 @@
 .fdm {
   background: #4295B0;
 }
+
+.pintos {
+  background: #6542B0;
+}
+
+.soc {
+  background: #F01818;
+}
+
+.gitlet {
+  background: #186FF0;
+}
+
+.case {
+  background: #B04262;
+}
+
+
 
 .hovereffect .overlay {
   width: 100%;
