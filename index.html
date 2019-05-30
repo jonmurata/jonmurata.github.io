@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/jonStyle.css">
     <link rel="stylesheet" href="css/caro.css">
     <link rel="stylesheet" href="css/but.css">
+    <link rel="stylesheet" href="css/projHover.css">
 
 
     <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
@@ -43,8 +44,8 @@
         <a id="home" class="nav-link" href="#">Home</a>
         <a id="about" class="nav-link" href="#">About</a>
         <a id="teaching" class="nav-link" href="#">Teaching</a>
-        <a id="projects" class="nav-link" href="#">Projects</a>
         <a id="academics" class="nav-link" href="#">Academics</a>
+        <a id="projects" class="nav-link" href="#">Projects</a>
         <a id="more" class="nav-link" href="#">More</a>
         <a class="nav-link"  href="https://www.linkedin.com/in/jmurata/"><i class="fa fa-linkedin-square fa-3x"></i></a>
         <a class="nav-link"  href="https://jonmurata.github.io/resources/Jonathan-Murata-Resume-Web.pdf"><i class="far fa-file-alt fa-3x"></i></a>
@@ -313,51 +314,6 @@
             <hr class="mt-2 mb-3">
           </div>
         </div>
-        <div id="proj" class="container-fluid">
-            <h1>Projects</h1>
-            <hr class="my-2">
-            <div class="row">
-              <div class="col-md-4 text-center jumbotron proj1">
-                  <h3>BobaBot</h3>
-                  <img id="profile" class="img-fluid rounded" src="img/bobabot.jpg" width="80%"
-                    style="border-style: solid; border-width: 2px">
-                  <br>
-                  <br>
-                  <ul class="text-left">
-                    <li class="bobaelem">3-Stage automatic boba dispenser. Tapioca Pearls -> Milk Tea -> Creamer.</li>
-                    <li class="bobaelem">1 raspberry Pi, 1 arduino, 1 DC motor, 2 DC pumps, 1 servo, lots of boba.</li>
-                    <li class="bobaelem">Programmed motor synchronization and server in Python.</li>
-                    <a href="https://jonmurata.github.io/bobabot/"><li class="bobaelem">More information (video demo).</li></a>
-                  </ul>
-              </div>
-              <div class="col-md-4 text-center jumbotron proj2">
-                  <h3>Kingdom Conqueror</h3>
-                  <img id="profile" class="img-fluid rounded" src="img/graph.png" width="92%"
-                    style="border-style: solid; border-width: 2px">
-                  <br>
-                  <br>
-                  <ul class="text-left">
-                    <li class="nodeelem nodeOne" style="font-size:1.2em">Find the least cost conquering tour (travel + conquering time) of a given graph.</li>
-                    <li class="nodeelem nodeTwo" style="font-size:1.2em">Converted to ILP and used Gurobi Optimization software to solve. Programmed in Python.</li>
-                    <li class="nodeelem nodeThree" style="font-size:1.2em">Competition Rank #4 out of 230 Teams (CS 170 Spring 2018).</li>
-                  </ul>
-              </div>
-              <div class="col-md-4 text-center jumbotron proj3">
-                  <h3>BearWatch</h3>
-                  <img id="profile" class="img-fluid rounded" src="img/bearResize.jpg" width="70%"
-                    style="border-style: solid; border-width: 2px">
-                  <br>
-                  <br>
-                  <ul class="text-left">
-                    <li class="bearelem" style="font-size:1.2em">2-camera security tower system. Bottom camera watches belongings. Top camera tracks and records thief.</li>
-                    <li class="bearelem" style="font-size:1.2em">Sounds an alarm when items leave the selected area. Deactivated with special key.</li>
-                    <li class="bearelem" style="font-size:1.2em">Programmed in LabVIEW.</li>
-                  </ul>
-              </div>
-            </div>
-            More Projects to be added soon.
-        </div>
-
         <div id="academicsContent" class="container-fluid mt-5">
           <h1>Academics</h1>
           <hr class="mt-2 mb-3">
@@ -479,12 +435,77 @@
             <p style="font-size: 1.25em">Eventually I may return to graduate school, but I am putting that on hold for now. On the MechE side, my interests involve heat transfer and controls. On the EECS side, my interests involve systems, computer architecture, and parallel computing. I have done research in biomechanics and heat transfer and will be working in a Systems lab over the Summer.</p>
           </div>
         </div>
+        <div id="proj" class="container-fluid">
+          <h1>Projects</h1>
+          <hr class="my-2">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="hovereffect boba">
+                  <img class="img-responsive img-fluid rounded" src="img/bobabot.jpg" width="80%">
+                  <div class="overlay">
+                  <h2>BobaBot</h2>
+                  <ul class="text-left">
+                    <li><p>Fully automatic boba dispenser.</p></li>
+                    <li><p>Rotating table, 3-stage design.</p></li>
+                    <li><p>Tapioca pearls -> milk tea -> creamer.</p></li>
+                    <li><p>1 raspberry pi, 1 arduino, 1 DC motor, 2 DC pumps, 1 servo, 1 payment system, acrylic, food-grade tubing, code, and lots of boba.</p></li>
+                    <li><p><a href="bobabot">More information (video demo).</a></p></li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="hovereffect">
+                  <img class="img-responsive img-fluid rounded" src="img/graph_resized.png" width="80%">
+                  <div class="overlay">
+                  <h2>Kingdom Conqueror</h2>
+                  <ul class="text-left">
+                    <li><p>Finding the least-cost conquering tour over student generated maps.</p></li>
+                    <li><p>Weighted nodes/edges representing travel/conquering time.</p></li>
+                    <li><p>Converted problem to an Integer Linear Program and used Gurobi Optimization software to solve.</p></li>
+                    <li><p>Programmed in Python.</p></li>
+                    <li><p>Competition rank #4 out of 230 teams (CS 170 Spring 2018).</p></li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="hovereffect bearwatch">
+                  <img class="img-responsive img-fluid rounded" src="img/bear_resize.jpg" width="80%">
+                  <div class="overlay">
+                  <h2>BearWatch</h2>
+                  <ul class="text-left">
+                    <li><p>Desktop security tower.</p></li>
+                    <li><p>2-camera protection system.</p></li>
+                    <li><p>Bottom cam watches over belongings and sounds alarm, deactivated with a special key.</p></li>
+                    <li><p>Top cam mounted on servo to track and record thief.</p></li>
+                    <li><p>Programmed in LabVIEW.</p></li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="hovereffect fdm">
+                  <img class="img-responsive img-fluid rounded" src="img/parallelfdm_resize.png" width="80%">
+                  <div class="overlay">
+                  <h2>Parallel Finite Difference Method</h2>
+                  <ul class="text-left">
+                    <li><p>Exploring nearest neighbors in traditional and non-traditional high performance computing frameworks.</p></li>
+                    <li><p>Finite difference method in a heat transfer system</p></li>
+                    <li><p> Programmed in C++ (OpenMP and MPI) and Golang (Thread-like and Message Passing).</p></li>
+                    <li><p>Measured performance in terms of weak and strong scaling efficiencies.</p></li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="extra" class="container-fluid mt-5">
             <h2>There's More Coming!</h2>
             <hr class="my-2">
             <p class="mb-5">
             This website is currently a work in progress. There will be more sections in the future!</p>
-            </button> 
+            </button>
         </div>
     </div>
     <!-- Padding  -->
