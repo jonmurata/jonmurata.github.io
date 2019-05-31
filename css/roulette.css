@@ -1,0 +1,60 @@
+/* Courtesy of Stephan Kaminsky https://skaminsky115.github.io/ */
+
+@keyframes roulette_change {
+  0% {
+    top: 0px; }
+  9% {
+    top: 0px; }
+  14% {
+    top: -9vw; }
+  23% {
+    top: -9vw; }
+  28% {
+    top: -18vw; }
+  37% {
+    top: -18vw; }
+  42% {
+    top: -27vw; }
+  53% {
+    top: -27vw; }
+  58% {
+    top: -36vw; }
+  67% {
+    top: -36vw; }
+  72% {
+    top: -45vw; }
+  81% {
+    top: -45vw; }
+  86% {
+    top: -54vw; }
+  91% {
+    top: -54vw; }
+  100% {
+    top: 0px; } }
+
+.box.roulette {
+  height: 9vw;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.box.roulette .words {
+  position: relative;
+  height: 9vw;
+  top: 0;
+  animation: roulette_change 30s infinite;
+}
+
+.box.roulette .words .word {
+  height: 9vw;
+  font-size: 9vw;
+  line-height: 9vw;
+  display: table;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
