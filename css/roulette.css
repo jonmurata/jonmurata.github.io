@@ -1,34 +1,54 @@
 /* Courtesy of Stephan Kaminsky https://skaminsky115.github.io/ */
 
-@keyframes roulette_change {
+/* @keyframes roulette_change {
   0% {
     top: 0px; }
   9% {
     top: 0px; }
   14% {
-    top: -9vw; }
+    top: -9.5vw; }
   23% {
-    top: -9vw; }
+    top: -9.5vw; }
   28% {
-    top: -18vw; }
+    top: -18.5vw; }
   37% {
-    top: -18vw; }
+    top: -18.5vw; }
   42% {
-    top: -27vw; }
+    top: -27.5vw; }
   53% {
-    top: -27vw; }
+    top: -27.5vw; }
   58% {
-    top: -36vw; }
+    top: -36.5vw; }
   67% {
-    top: -36vw; }
+    top: -36.5vw; }
   72% {
-    top: -45vw; }
+    top: -45.5vw; }
   81% {
-    top: -45vw; }
+    top: -45.5vw; }
   86% {
-    top: -54vw; }
+    top: -54.5vw; }
   91% {
-    top: -54vw; }
+    top: -54.5vw; }
+  100% {
+    top: 0px; } } */
+
+@keyframes roulette_change {
+  0% {
+    top: 0px; }
+  12% {
+    top: 0px; }
+  25% {
+    top: -9.5vw; }
+  37% {
+    top: -9.5vw; }
+  50% {
+    top: -18.5vw; }
+  62% {
+    top: -18.5vw; }
+  75% {
+    top: -27.5vw; }
+  87% {
+    top: -27.5vw; }
   100% {
     top: 0px; } }
 
@@ -37,16 +57,14 @@
   overflow: hidden;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 .box.roulette .words {
   position: relative;
   height: 9vw;
   top: 0;
-  animation: roulette_change 30s infinite;
+  animation: roulette_change 15s infinite;
 }
 
 .box.roulette .words .word {
@@ -56,5 +74,22 @@
   display: table;
   text-align: center;
   width: 100%;
-  text-transform: uppercase;
+}
+
+.box.roulette .words .jonimage {
+  height: 9vw;
+  font-size: 9vw;
+  line-height: 9vw;
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+.box.roulette .words .wingo {
+  height: 9vw;
+  font-size: 9vw;
+  line-height: 9vw;
+  display: table;
+  text-align: center;
+  width: 100%;
 }

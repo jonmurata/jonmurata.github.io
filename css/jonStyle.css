@@ -34,7 +34,7 @@ html,body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(../img/jon.jpg);
+    background-image: url(../img/banner/jon.jpg);
 }
 #bannertextwrapper{
     display: table-cell;
