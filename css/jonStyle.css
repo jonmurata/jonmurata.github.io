@@ -40,10 +40,10 @@ html,body{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    background: black;
+    background-color: rgba(0, 0, 0, 0.75);;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 .jumbotron {
     background-color: #e4f0ff;
