@@ -21,6 +21,12 @@ $(document).ready(function () {
         );
     });
 
+    $("#career").click(function () {
+        $("html, body").animate(
+	    { scrollTop: $("#career-link").offset().top - 100 }, 1000
+        );
+    });
+
     $("#teaching").click(function () {
         $("html, body").animate(
             { scrollTop: $("#teachLink").offset().top - 200}, 1000
